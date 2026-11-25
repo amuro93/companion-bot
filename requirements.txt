@@ -1,0 +1,6 @@
+# Runtime versions exercised on Windows / Python 3.12.14 (2026-11-12).
+# Install CPU torch separately from its official index first:
+# uv pip install --python .venv/Scripts/python.exe torch==2.15.0+cpu --index-url https://download.pytorch.org/whl/cpu
+# Then install this file using the normal package index.
+python-telegram-bot==22.8
+sentence-transformers==6.3.0

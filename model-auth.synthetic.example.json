@@ -1,0 +1,22 @@
+{
+  "root": ".",
+  "db": "companion.sqlite3",
+  "owner_id": "local-owner",
+  "character_id": "example-companion",
+  "persona_file": "personas/example_companion.txt",
+  "l0_dir": "personas",
+  "model_url": "http://localhost:8080/v1/chat/completions",
+  "model_id": "your-model-name",
+  "telegram_token_env": "BOT_TELEGRAM_TOKEN",
+  "telegram_user_id_env": "BOT_TELEGRAM_USER_ID",
+  "addressee_family_key": null,
+  "model_api_key_env": "MODEL_API_KEY",
+  "model_choices": [
+    {
+      "label": "Local model",
+      "model_url": "http://localhost:8080/v1/chat/completions",
+      "model_id": "your-model-name",
+      "model_api_key_env": "MODEL_API_KEY"
+    }
+  ]
+}
